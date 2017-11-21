@@ -1,0 +1,10 @@
+/root/localperl/bin/htmltree
+/root/localperl/lib/site_perl/5.26.1/HTML/AsSubs.pm
+/root/localperl/lib/site_perl/5.26.1/HTML/Element.pm
+/root/localperl/lib/site_perl/5.26.1/HTML/Element/traverse.pm
+/root/localperl/lib/site_perl/5.26.1/HTML/Parse.pm
+/root/localperl/lib/site_perl/5.26.1/HTML/Tree.pm
+/root/localperl/lib/site_perl/5.26.1/HTML/Tree/AboutObjects.pod
+/root/localperl/lib/site_perl/5.26.1/HTML/Tree/AboutTrees.pod
+/root/localperl/lib/site_perl/5.26.1/HTML/Tree/Scanning.pod
+/root/localperl/lib/site_perl/5.26.1/HTML/TreeBuilder.pm

@@ -1,0 +1,10 @@
+/root/localperl/lib/site_perl/5.26.1/HTTP/Config.pm
+/root/localperl/lib/site_perl/5.26.1/HTTP/Headers.pm
+/root/localperl/lib/site_perl/5.26.1/HTTP/Headers/Auth.pm
+/root/localperl/lib/site_perl/5.26.1/HTTP/Headers/ETag.pm
+/root/localperl/lib/site_perl/5.26.1/HTTP/Headers/Util.pm
+/root/localperl/lib/site_perl/5.26.1/HTTP/Message.pm
+/root/localperl/lib/site_perl/5.26.1/HTTP/Request.pm
+/root/localperl/lib/site_perl/5.26.1/HTTP/Request/Common.pm
+/root/localperl/lib/site_perl/5.26.1/HTTP/Response.pm
+/root/localperl/lib/site_perl/5.26.1/HTTP/Status.pm

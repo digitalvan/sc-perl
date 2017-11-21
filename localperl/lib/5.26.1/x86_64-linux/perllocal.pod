@@ -1,0 +1,44 @@
+=head2 Tue Nov 21 01:43:57 2017: C<Module> L<Encode|Encode>
+
+=over 4
+
+=item *
+
+C<installed into: /root/localperl/lib/site_perl/5.26.1>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.93>
+
+=item *
+
+C<EXE_FILES: bin/enc2xs bin/encguess bin/piconv>
+
+=back
+
+=head2 Tue Nov 21 02:29:59 2017: C<Module> L<DBI|DBI>
+
+=over 4
+
+=item *
+
+C<installed into: /root/localperl/lib/site_perl/5.26.1>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.637>
+
+=item *
+
+C<EXE_FILES: dbilogstrip dbiprof dbiproxy>
+
+=back
+

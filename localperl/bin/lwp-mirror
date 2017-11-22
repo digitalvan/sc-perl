@@ -1,4 +1,4 @@
-#!/root/localperl/bin/perl
+#!./localperl/bin/perl
 
 # Simple mirror utility using LWP
 

@@ -1,4 +1,4 @@
-#!/root/localperl/bin/perl
+#!./localperl/bin/perl
 
 =head1 NAME
 

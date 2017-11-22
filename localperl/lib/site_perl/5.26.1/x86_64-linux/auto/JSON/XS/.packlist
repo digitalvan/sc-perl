@@ -1,4 +1,4 @@
-/root/localperl/bin/json_xs
-/root/localperl/lib/site_perl/5.26.1/x86_64-linux/JSON/XS.pm
-/root/localperl/lib/site_perl/5.26.1/x86_64-linux/JSON/XS/Boolean.pm
-/root/localperl/lib/site_perl/5.26.1/x86_64-linux/auto/JSON/XS/XS.so
+./localperl/bin/json_xs
+./localperl/lib/site_perl/5.26.1/x86_64-linux/JSON/XS.pm
+./localperl/lib/site_perl/5.26.1/x86_64-linux/JSON/XS/Boolean.pm
+./localperl/lib/site_perl/5.26.1/x86_64-linux/auto/JSON/XS/XS.so

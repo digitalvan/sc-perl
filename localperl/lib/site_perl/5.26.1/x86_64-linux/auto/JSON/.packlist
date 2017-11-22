@@ -1,5 +1,5 @@
-/root/localperl/lib/site_perl/5.26.1/JSON.pm
-/root/localperl/lib/site_perl/5.26.1/JSON/backportPP.pm
-/root/localperl/lib/site_perl/5.26.1/JSON/backportPP/Boolean.pm
-/root/localperl/lib/site_perl/5.26.1/JSON/backportPP/Compat5005.pm
-/root/localperl/lib/site_perl/5.26.1/JSON/backportPP/Compat5006.pm
+./localperl/lib/site_perl/5.26.1/JSON.pm
+./localperl/lib/site_perl/5.26.1/JSON/backportPP.pm
+./localperl/lib/site_perl/5.26.1/JSON/backportPP/Boolean.pm
+./localperl/lib/site_perl/5.26.1/JSON/backportPP/Compat5005.pm
+./localperl/lib/site_perl/5.26.1/JSON/backportPP/Compat5006.pm

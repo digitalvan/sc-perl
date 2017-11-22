@@ -1,2 +1,2 @@
-/root/localperl/lib/site_perl/5.26.1/LWP/MediaTypes.pm
-/root/localperl/lib/site_perl/5.26.1/LWP/media.types
+./localperl/lib/site_perl/5.26.1/LWP/MediaTypes.pm
+./localperl/lib/site_perl/5.26.1/LWP/media.types

@@ -1,5 +1,5 @@
-#!/root/localperl/bin/perl
-    eval 'exec /root/localperl/bin/perl -S $0 ${1+"$@"}'
+#!./localperl/bin/perl
+    eval 'exec ./localperl/bin/perl -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
 #!perl
 use 5.006;

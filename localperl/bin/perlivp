@@ -1,5 +1,5 @@
-#!/root/localperl/bin/perl
-    eval 'exec /root/localperl/bin/perl -S $0 ${1+"$@"}'
+#!./localperl/bin/perl
+    eval 'exec ./localperl/bin/perl -S $0 ${1+"$@"}'
         if $running_under_some_shell;
 
 # perlivp v5.26.1
@@ -45,7 +45,7 @@ my $pass__total = 0;
 my $error_total = 0;
 my $tests_total = 0;
 
-my $perlpath = '/root/localperl/bin/perl';
+my $perlpath = './localperl/bin/perl';
 my $useithreads = '';
 
 print "## Checking Perl binary via variable '\$perlpath' = $perlpath.\n" if $opt{'p'};

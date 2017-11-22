@@ -84,7 +84,7 @@ sub AUTOLOAD {
 
 # tie returns the object, so the value returned to require will be true.
 tie %Config, 'Config', {
-    archlibexp => '/root/localperl/lib/5.26.1/x86_64-linux',
+    archlibexp => './localperl/lib/5.26.1/x86_64-linux',
     archname => 'x86_64-linux',
     cc => 'cc',
     d_readlink => 'define',
@@ -100,10 +100,10 @@ tie %Config, 'Config', {
     osname => 'linux',
     osvers => '4.4.0-1038-aws',
     path_sep => ':',
-    privlibexp => '/root/localperl/lib/5.26.1',
-    scriptdir => '/root/localperl/bin',
-    sitearchexp => '/root/localperl/lib/site_perl/5.26.1/x86_64-linux',
-    sitelibexp => '/root/localperl/lib/site_perl/5.26.1',
+    privlibexp => './localperl/lib/5.26.1',
+    scriptdir => './localperl/bin',
+    sitearchexp => './localperl/lib/site_perl/5.26.1/x86_64-linux',
+    sitelibexp => './localperl/lib/site_perl/5.26.1',
     so => 'so',
     useithreads => undef,
     usevendorprefix => undef,

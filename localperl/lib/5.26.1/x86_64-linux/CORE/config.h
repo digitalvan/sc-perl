@@ -1398,8 +1398,8 @@
  *	This symbol contains the ~name expanded version of ARCHLIB, to be used
  *	in programs that are not prepared to deal with ~ expansion at run-time.
  */
-#define ARCHLIB "/root/localperl/lib/5.26.1/x86_64-linux"		/**/
-#define ARCHLIB_EXP "/root/localperl/lib/5.26.1/x86_64-linux"		/**/
+#define ARCHLIB "./localperl/lib/5.26.1/x86_64-linux"		/**/
+#define ARCHLIB_EXP "./localperl/lib/5.26.1/x86_64-linux"		/**/
 
 /* BIN:
  *	This symbol holds the path of the bin directory where the package will
@@ -1413,8 +1413,8 @@
  *	This symbol, if defined, indicates that we'd like to relocate entries
  *	in @INC at run time based on the location of the perl binary.
  */
-#define BIN "/root/localperl/bin"	/**/
-#define BIN_EXP "/root/localperl/bin"	/**/
+#define BIN "./localperl/bin"	/**/
+#define BIN_EXP "./localperl/bin"	/**/
 #define PERL_RELOCATABLE_INC "undef" 		/**/
 
 /* PERL_INC_VERSION_LIST:
@@ -1452,8 +1452,8 @@
  *	This symbol contains the ~name expanded version of PRIVLIB, to be used
  *	in programs that are not prepared to deal with ~ expansion at run-time.
  */
-#define PRIVLIB "/root/localperl/lib/5.26.1"		/**/
-#define PRIVLIB_EXP "/root/localperl/lib/5.26.1"		/**/
+#define PRIVLIB "./localperl/lib/5.26.1"		/**/
+#define PRIVLIB_EXP "./localperl/lib/5.26.1"		/**/
 
 /* SITEARCH:
  *	This symbol contains the name of the private library for this package.
@@ -1470,8 +1470,8 @@
  *	This symbol contains the ~name expanded version of SITEARCH, to be used
  *	in programs that are not prepared to deal with ~ expansion at run-time.
  */
-#define SITEARCH "/root/localperl/lib/site_perl/5.26.1/x86_64-linux"		/**/
-#define SITEARCH_EXP "/root/localperl/lib/site_perl/5.26.1/x86_64-linux"		/**/
+#define SITEARCH "./localperl/lib/site_perl/5.26.1/x86_64-linux"		/**/
+#define SITEARCH_EXP "./localperl/lib/site_perl/5.26.1/x86_64-linux"		/**/
 
 /* SITELIB:
  *	This symbol contains the name of the private library for this package.
@@ -1493,9 +1493,9 @@
  *	removed.  The elements in inc_version_list (inc_version_list.U) can
  *	be tacked onto this variable to generate a list of directories to search.
  */
-#define SITELIB "/root/localperl/lib/site_perl/5.26.1"		/**/
-#define SITELIB_EXP "/root/localperl/lib/site_perl/5.26.1"		/**/
-#define SITELIB_STEM "/root/localperl/lib/site_perl"		/**/
+#define SITELIB "./localperl/lib/site_perl/5.26.1"		/**/
+#define SITELIB_EXP "./localperl/lib/site_perl/5.26.1"		/**/
+#define SITELIB_STEM "./localperl/lib/site_perl"		/**/
 
 /* PERL_VENDORARCH:
  *	If defined, this symbol contains the name of a private library.
@@ -4281,7 +4281,7 @@
  *	script to make sure (one hopes) that it runs with perl and not
  *	some shell.
  */
-#define STARTPERL "#!/root/localperl/bin/perl"		/**/
+#define STARTPERL "#!./localperl/bin/perl"		/**/
 
 /* HAS_STDIO_STREAM_ARRAY:
  *	This symbol, if defined, tells that there is an array

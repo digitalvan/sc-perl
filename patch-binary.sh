@@ -52,5 +52,5 @@ function patch_strings_in_file() {
         done
     fi
 }
-patch_strings_in_file sc-perl/localperl/bin/perl "/root/localperl" "/toor/localperl"
+patch_strings_in_file ./localperl/bin/perl "/root/localperl" "/toor/localperl"
 #patch_strings_in_file foo "/usr/local/lib/foo" "/usr/lib/foo"

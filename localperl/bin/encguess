@@ -1,4 +1,4 @@
-#!./localperl/bin/perl
+#!/root/localperl/bin/perl
 use 5.008001;
 BEGIN { pop @INC if $INC[-1] eq '.' }
 use strict;

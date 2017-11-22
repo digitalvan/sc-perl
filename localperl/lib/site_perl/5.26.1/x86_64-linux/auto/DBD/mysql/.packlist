@@ -1,5 +1,5 @@
-./localperl/lib/site_perl/5.26.1/x86_64-linux/Bundle/DBD/mysql.pm
-./localperl/lib/site_perl/5.26.1/x86_64-linux/DBD/mysql.pm
-./localperl/lib/site_perl/5.26.1/x86_64-linux/DBD/mysql/GetInfo.pm
-./localperl/lib/site_perl/5.26.1/x86_64-linux/DBD/mysql/INSTALL.pod
-./localperl/lib/site_perl/5.26.1/x86_64-linux/auto/DBD/mysql/mysql.so
+/root/localperl/lib/site_perl/5.26.1/x86_64-linux/Bundle/DBD/mysql.pm
+/root/localperl/lib/site_perl/5.26.1/x86_64-linux/DBD/mysql.pm
+/root/localperl/lib/site_perl/5.26.1/x86_64-linux/DBD/mysql/GetInfo.pm
+/root/localperl/lib/site_perl/5.26.1/x86_64-linux/DBD/mysql/INSTALL.pod
+/root/localperl/lib/site_perl/5.26.1/x86_64-linux/auto/DBD/mysql/mysql.so

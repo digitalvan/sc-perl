@@ -4,12 +4,12 @@
 my $home = $ENV{"HOME"};
 my $localperlhome = $home."/sc-perl/localperl";
 
-if ( -l $localperlhome ) {
+if ( -l "$home"."/localperl") {
 
-    print "$localperlhome : exists, continuing";
+    print "$localperlhome : exists, continuing...\n";
 
 } else {
 
-    print "$localperlhome : does not exist, creating..";
+    print "$localperlhome : does not exist, creating...\n";
     symlink("$localperlhome", "$home"."/localperl");
 }

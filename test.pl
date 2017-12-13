@@ -1,4 +1,4 @@
-#!localperl/bin/perl -w -I localperl/lib/site_perl/5.26.1/Module/Build -I localperl/lib/5.26.1 -I localperl/lib/5.26.1/x86_64-linux -I localperl/lib/5.26.1 -I localperl/lib/site_perl/5.26.1/x86_64-linux -I localperl/lib/site_perl/5.26.1
+#!localperl/bin/perl -w 
 
 BEGIN {
     my $need= 'localperl/lib/x86_64_linux-gnu';

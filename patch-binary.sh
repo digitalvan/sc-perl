@@ -52,7 +52,7 @@ function patch_strings_in_file() {
         done
     fi
 }
-patch_strings_in_file localperl/bin/perl "/root/localperl" "      localperl"
+patch_strings_in_file localperl/bin/perl "      localperl" "$HOME/localperl"
 #
 #find . -type f -exec sed -i -e  's/\.\/localperl/\/root\/localperl/g' {} \;
 #patch_strings_in_file foo "/usr/local/lib/foo" "/usr/lib/foo"

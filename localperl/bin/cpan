@@ -1,8 +1,8 @@
-#!/root/localperl/bin/perl -I /root/localperl/lib/site_perl/5.26.1/Module/Build -I /root/localperl/lib/5.26.1 -I /root/localperl/lib/5.26.1/x86_64-linux -I /root/localperl/lib/5.26.1 -I /root/localperl/lib/site_perl/5.26.1/x86_64-linux -I /root/localperl/lib/site_perl/5.26.1
+#!../bin/perl -I ../lib/site_perl/5.26.1/Module/Build -I ../lib/5.26.1 -I ../lib/5.26.1/x86_64-linux -I ../lib/5.26.1 -I ../lib/site_perl/5.26.1/x86_64-linux -I ../lib/site_perl/5.26.1
 
-    eval 'exec /root/localperl/bin/perl -S $0 ${1+"$@"}'
+    eval 'exec ../bin/perl -S $0 ${1+"$@"}'
 	if $running_under_some_shell;
-#!/usr/local/bin/perl
+#!../bin/perl
 
 BEGIN { pop @INC if $INC[-1] eq '.' }
 use strict;

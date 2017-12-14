@@ -1,8 +1,10 @@
 #!/usr/bin/perl
 
+use Cwd;
 
 my $home = $ENV{"HOME"};
-my $localperlhome = $home."/sc-perl/localperl";
+my $sc_perl_home = getcwd;
+my $localperlhome = $sc_perl_home."/localperl";
 
 if ( -l "$home"."/localperl") {
 

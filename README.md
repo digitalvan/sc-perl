@@ -15,3 +15,5 @@ Current Features :
 Roadmap :
 - Support additional architectures (e.g. add gcc / make for i686 and darwin). 
 - Menu-driven provisioning.
+
+Newer versions will support containerization.
